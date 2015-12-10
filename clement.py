@@ -1,8 +1,3 @@
-print "Welcome to my game!"
-
-print "You are in a large room with dozens of doors leading off in different directions. What do you do?"
-
-
 def first_room():
     user_input = raw_input().lower()
 
@@ -14,7 +9,6 @@ def first_room():
         else:
             print "You are in a large room with dozens of doors leading off in different directions. What do you do?"
 
-first_room()
 
 
 def second_room():

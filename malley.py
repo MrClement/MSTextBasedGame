@@ -1,6 +1,7 @@
-powerlevel = 0
+
 
 def torture_chamber():
+    powerlevel = 0
     print "you find yourself on a table and a legendary sword is on the floor"
     hs = raw_input("take sword y/n")
 
@@ -25,6 +26,3 @@ def Act1():
 def Laser_Sxorpion():
 
     Act1()
-
-
-Laser_Sxorpion()

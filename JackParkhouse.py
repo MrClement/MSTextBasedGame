@@ -218,4 +218,4 @@ def dragon_room():
         print ("you killed the dragon.")
     else:
         ("you died")
-dragon_room()
+#dragon_room()

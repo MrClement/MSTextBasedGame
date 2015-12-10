@@ -30,7 +30,7 @@ def vaughns():
 	mema = ['Read Me', 'Manifest', 'Mediocre_Electronics.HTML']
 	functions = {'ls': items}
 	def filesa():
-		user = raw_input('clement_alex: users clement_alex$')	
+		user = raw_input('clement_alex: users clement_alex$')
 		if(user=='pwd'):
 			login()
 		x = user[:3]
@@ -77,7 +77,7 @@ def vaughns():
 			mem()
 	def login():
 		user = raw_input('clement_alex:~ clement_alex$')
-		str(user)	
+		str(user)
 		if(user=='help'):
 			print ('Mr. Clement you told me to disable that command')
 			login()
@@ -113,4 +113,3 @@ def vaughns():
 			print('incorrect')
 			type()
 	type()
-vaughns()

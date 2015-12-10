@@ -15,6 +15,3 @@ def roomSelection():
             print "You are at the entrace of the cave. The rest of the cliff is unclimable. What would you like to do from here? "
             if input ==  "enter cave":
                 print "You have entered the cave. There is a lamp, a supply of food for a week, keys, and a bow and arrow. What would you like to do from here? "
-
-
-roomSelection()

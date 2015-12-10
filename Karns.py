@@ -18,7 +18,7 @@ def reptilians():
                         x = 1
                         y = False
                         break
-                    else " pri"
+                    else: " pri"
                 if statue == "run":
                     print " "
                     ro = raw_input("You start to run but you hear someone slithering up behind you. An unmanned voice shouting 'watch out, Watch Out, WATCH OUT!' and an arm wraps around head slamming you forward into the ground. *Press Enter*")
@@ -60,7 +60,8 @@ def reptilians():
                                         y = True
                                         while y:
                                             print " "
-                                            esc = raw_input("You broke out of the ")
+                                            esc = raw_input("You broke out of the  room")
+                                            return
                                     else:
                                         print " "
                                         print "No son."
@@ -75,7 +76,3 @@ def reptilians():
                 else:
                     print " "
                     reproom = raw_input("Son you just fell into a hole you can't do that. ")
-
-
-
-reptilians()
