@@ -5,7 +5,7 @@ def reptilians():
 
         while x == 0:
             print " "
-            reproom = raw_input("After your fall, you find yourself in dark room. You feel a sharp sting in the back of your neck. Slowly, your vision starts to come back and before you stands a magnificent statue. ")
+            reproom = raw_input("You find yourself in dark room. You feel a sharp sting in the back of your neck. Slowly, your vision starts to come back and before you stands a magnificent statue. ")
             if reproom == "forward" or "f":
                 print " "
 
@@ -60,7 +60,7 @@ def reptilians():
                                         y = True
                                         while y:
                                             print " "
-                                            esc = raw_input("You broke out of the  room")
+                                            print "You break out of the room and see Cthulu"
                                             return
                                     else:
                                         print " "

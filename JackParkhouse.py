@@ -20,6 +20,8 @@ def attacking_animals():
             print ("tyranisourous rex health = ") + str(tyranisourous_rex_health)
             print ("snake health = ") + str(snake_health)
             print ("Your life = ") + str(life)
+            print "Fade to black"
+            return
             info = raw_input("What would you like to attack?")
             while len(animals) > 0:
                 if life < 0:
@@ -213,6 +215,7 @@ def dragon_room():
 
     while being_attacked == 1 and dragon > 0:
         attacking_animals()
+        return
         dragon = 0
     if dragon == 0:
         print ("you killed the dragon.")

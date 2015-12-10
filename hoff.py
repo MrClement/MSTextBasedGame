@@ -2,7 +2,7 @@ def cthulu():
     "You see a colossal statue of a giant reptellian beast, with name leafy engraved on a plaque"
     cthulu = (raw_input("Cthulu just wants a friend, will you be his friend?"))
     if cthulu == "yes":
-        print "*Cthulu explodes* You may pass, head north"
+        print "*Cthulu explodes* You may pass"
     elif cthulu == "no":
         print "*Cthulu kills you*"
     elif cthulu == "addison":
