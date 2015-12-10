@@ -1,4 +1,11 @@
 def vaughns():
+	import time
+	def netstat():
+		print 'Active Internet connections'
+		print 'Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)'
+		time.sleep(1)
+		print'tcp4       0      0  10.80.9.46.64499       17.134.62.217.https    SYN_SENT'
+		print'tcp4       0   1436  10.80.9.46.64498       kdsdcprime.kentd.ldap  ESTABLISHED'
 	def clear():
 		print('')
 		print('')
@@ -17,15 +24,29 @@ def vaughns():
 		print('')
 		print('')
 		print('')
-	import time
 	items = ['Meeuw', 'Mediocre Electronics Manifest', 'jquery.js', 'users', 'pacman.js']
 	users = ['Clement, Alex']
+	files = ['my documents', 'treasure map', 'kali']
 	mema = ['Read Me', 'Manifest', 'Mediocre_Electronics.HTML']
 	functions = {'ls': items}
+	def filesa():
+		user = raw_input('clement_alex: users clement_alex$')	
+		x = user[:3]
+		if(x=='cd treasure map'):
+			print("you don't have the authority to acess that file")
+		print(user[3:], 'is not a valid directory')
+		filsa()
 	def usersa():
 		user = raw_input('clement_alex: users clement_alex$')
 		if(user=='ls'):
 			print users
+			usersa()
+		if(user=='cd clement, alex'):
+			print files
+			filesa()
+		else:
+			print 'invalid syntax'
+			usersa()
 	def mem():
 		user = raw_input('clement_alex: Mediocre_Electronics_Manifest clement_alex$')
 		if(user=='pwd'):
@@ -44,12 +65,18 @@ def vaughns():
 			time.sleep(2)
 			clear()
 			return 0
+		if(user=='help'):
+			print ('Mr. Clement you told me to disable that command')
+			mem()
 		else:
 			print(user, 'is not a valid directory/folder')
 			mem()
 	def login():
 		user = raw_input('clement_alex:~ clement_alex$')
 		str(user)	
+		if(user=='help'):
+			print ('Mr. Clement you told me to disable that command')
+			login()
 		if(user=='reboot'):
 			print('powering down ubuntu shell')
 			time.sleep(2)
