@@ -6,7 +6,7 @@ def torture_chamber():
     hs = raw_input("take sword y/n")
 
     if hs == "y":
-        print "you slay the Laser Sxorpion in a way so brutal it is instantly posed on heavyr"
+        print "you slay the Laser Sxorpion"
         powerlevel = powerlevel + 100
     else:
         print "The sword dissapears and you are trapped in room forever"

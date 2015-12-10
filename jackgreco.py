@@ -1,6 +1,4 @@
 def roomSelection():
-    print("DO NOT USE CAPITAL LETTERS IN THIS GAME! IF YOU DO, THEN NOTHING WILL HAPPEN!")
-    print(" ")
     print "There are three doors. One to you left, forward, and right. Which door do you want to go through: "
     input = raw_input()
     if input == "left":
@@ -10,7 +8,7 @@ def roomSelection():
         print "The door is locked. You can not enter. There are three doors. One to you left, forward, and right. Which door do you want to go through: "
         print "LOL YOU DIED!"
     if input == "right":
-        print "You have fallen down a cliff and into a lake. There is a cave 15 feet up the cliff. The lake also empties into a calm river. What would you like to do from here? "
+        print "You have fallen down a cliff and into a lake. There is a cave 15 feet up the cliff. The lake also empties into a calm river."
         if input == "climb cliff":
             print "You are at the entrace of the cave. The rest of the cliff is unclimable. What would you like to do from here? "
             if input ==  "enter cave":
