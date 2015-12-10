@@ -36,8 +36,9 @@ def vaughns():
 		x = user[:3]
 		if(x=='cd treasure map'):
 			print("you don't have the authority to acess that file")
-		print(user[3:], 'is not a valid directory')
-		filsa()
+		else:	
+			print(user[3:], 'is not a valid directory')
+			filsa()
 	def usersa():
 		user = raw_input('clement_alex: users clement_alex$')
 		if(user=='ls'):
@@ -68,7 +69,7 @@ def vaughns():
 			print('powering down ubuntu shell')
 			time.sleep(2)
 			clear()
-			return 0
+			return 
 		if(user=='help'):
 			print ('Mr. Clement you told me to disable that command')
 			mem()
@@ -85,7 +86,7 @@ def vaughns():
 			print('powering down ubuntu shell')
 			time.sleep(2)
 			clear()
-			return 0
+			return 
 		x = user[:3]
 		if(x=='cd '):
 			y = user[3:]
