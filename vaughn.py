@@ -46,11 +46,11 @@ def vaughns():
 		if(user=='cd clement, alex'):
 			print files
 			filesa()
+		if(user=='pwd'):
+			login()
 		else:
 			print 'invalid syntax'
 			usersa()
-		if(user=='pwd'):
-			login()
 	def mem():
 		user = raw_input('clement_alex: Mediocre_Electronics_Manifest clement_alex$')
 		if(user=='pwd'):
