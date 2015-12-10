@@ -31,6 +31,8 @@ def vaughns():
 	functions = {'ls': items}
 	def filesa():
 		user = raw_input('clement_alex: users clement_alex$')	
+		if(user=='pwd'):
+			login()
 		x = user[:3]
 		if(x=='cd treasure map'):
 			print("you don't have the authority to acess that file")
@@ -47,6 +49,8 @@ def vaughns():
 		else:
 			print 'invalid syntax'
 			usersa()
+		if(user=='pwd'):
+			login()
 	def mem():
 		user = raw_input('clement_alex: Mediocre_Electronics_Manifest clement_alex$')
 		if(user=='pwd'):
@@ -92,7 +96,7 @@ def vaughns():
 				print mema
 				mem()
 			else:
-				print('sorry I do not understand that')
+				print(y, 'is not a valid directory')
 			login()
 		print (functions.get(user, "Sorry but I don't find that here"))
 		login()
