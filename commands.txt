@@ -1,0 +1,20 @@
+python finalgame.py
+1
+<enter>
+run
+<enter>
+up
+pickaxe
+<enter>
+wall
+yes
+right
+fight
+y
+clement
+alex
+ls
+reboot
+<enter>
+take all
+attack with bow
